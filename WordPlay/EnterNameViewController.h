@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EnterNameViewController.h
 //  WordPlay
 //
 //  Created by Mohamed Ayadi on 5/23/16.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@interface EnterNameViewController : UIViewController
 
-@interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 
 @end
-

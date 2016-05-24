@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PrepositionViewController.h
 //  WordPlay
 //
 //  Created by Mohamed Ayadi on 5/23/16.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface ViewController : UIViewController
+@interface PrepositionViewController : UIViewController
+@property NSString *fullString;
 
 
 @end
-

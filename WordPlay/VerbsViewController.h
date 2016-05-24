@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VerbsViewController.h
 //  WordPlay
 //
 //  Created by Mohamed Ayadi on 5/23/16.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@interface VerbsViewController : UIViewController
+@property NSString *verbName;
 
-@interface ViewController : UIViewController
-
+@property NSString *result;
 
 @end
-

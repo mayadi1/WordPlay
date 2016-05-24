@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1844EC391CF3D53700003A73 /* VerbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844EC381CF3D53700003A73 /* VerbsViewController.m */; };
+		1844EC3C1CF3DCAB00003A73 /* PrepositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844EC3B1CF3DCAB00003A73 /* PrepositionViewController.m */; };
 		18D9FE2D1CF392CD0007DA82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE2C1CF392CD0007DA82 /* main.m */; };
 		18D9FE301CF392CD0007DA82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE2F1CF392CD0007DA82 /* AppDelegate.m */; };
 		18D9FE331CF392CD0007DA82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE321CF392CD0007DA82 /* ViewController.m */; };
 		18D9FE361CF392CD0007DA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9FE341CF392CD0007DA82 /* Main.storyboard */; };
 		18D9FE381CF392CD0007DA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D9FE371CF392CD0007DA82 /* Assets.xcassets */; };
 		18D9FE3B1CF392CD0007DA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9FE391CF392CD0007DA82 /* LaunchScreen.storyboard */; };
+		18D9FE441CF394350007DA82 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE431CF394350007DA82 /* EnterNameViewController.m */; };
+		18D9FE471CF394F40007DA82 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE461CF394F40007DA82 /* EnterAdjectiveViewController.m */; };
+		18D9FE501CF3961C0007DA82 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9FE4F1CF3961C0007DA82 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1844EC371CF3D53700003A73 /* VerbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerbsViewController.h; sourceTree = "<group>"; };
+		1844EC381CF3D53700003A73 /* VerbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerbsViewController.m; sourceTree = "<group>"; };
+		1844EC3A1CF3DCAB00003A73 /* PrepositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepositionViewController.h; sourceTree = "<group>"; };
+		1844EC3B1CF3DCAB00003A73 /* PrepositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepositionViewController.m; sourceTree = "<group>"; };
 		18D9FE281CF392CD0007DA82 /* WordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D9FE2C1CF392CD0007DA82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D9FE2E1CF392CD0007DA82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,12 @@
 		18D9FE371CF392CD0007DA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D9FE3A1CF392CD0007DA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D9FE3C1CF392CD0007DA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D9FE421CF394350007DA82 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		18D9FE431CF394350007DA82 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		18D9FE451CF394F40007DA82 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		18D9FE461CF394F40007DA82 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		18D9FE4E1CF3961C0007DA82 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
+		18D9FE4F1CF3961C0007DA82 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,16 @@
 				18D9FE311CF392CD0007DA82 /* ViewController.h */,
 				18D9FE321CF392CD0007DA82 /* ViewController.m */,
 				18D9FE341CF392CD0007DA82 /* Main.storyboard */,
+				1844EC3A1CF3DCAB00003A73 /* PrepositionViewController.h */,
+				1844EC3B1CF3DCAB00003A73 /* PrepositionViewController.m */,
+				1844EC371CF3D53700003A73 /* VerbsViewController.h */,
+				1844EC381CF3D53700003A73 /* VerbsViewController.m */,
+				18D9FE451CF394F40007DA82 /* EnterAdjectiveViewController.h */,
+				18D9FE461CF394F40007DA82 /* EnterAdjectiveViewController.m */,
+				18D9FE421CF394350007DA82 /* EnterNameViewController.h */,
+				18D9FE431CF394350007DA82 /* EnterNameViewController.m */,
+				18D9FE4E1CF3961C0007DA82 /* ResultsViewController.h */,
+				18D9FE4F1CF3961C0007DA82 /* ResultsViewController.m */,
 				18D9FE371CF392CD0007DA82 /* Assets.xcassets */,
 				18D9FE391CF392CD0007DA82 /* LaunchScreen.storyboard */,
 				18D9FE3C1CF392CD0007DA82 /* Info.plist */,
@@ -110,6 +135,7 @@
 				TargetAttributes = {
 					18D9FE271CF392CD0007DA82 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PE9MW7PNB5;
 					};
 				};
 			};
@@ -150,8 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D9FE331CF392CD0007DA82 /* ViewController.m in Sources */,
+				1844EC3C1CF3DCAB00003A73 /* PrepositionViewController.m in Sources */,
 				18D9FE301CF392CD0007DA82 /* AppDelegate.m in Sources */,
+				18D9FE471CF394F40007DA82 /* EnterAdjectiveViewController.m in Sources */,
+				18D9FE501CF3961C0007DA82 /* ResultsViewController.m in Sources */,
+				18D9FE441CF394350007DA82 /* EnterNameViewController.m in Sources */,
 				18D9FE2D1CF392CD0007DA82 /* main.m in Sources */,
+				1844EC391CF3D53700003A73 /* VerbsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WordPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MohamedA.WordPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +308,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WordPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MohamedA.WordPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +337,7 @@
 				18D9FE411CF392CD0007DA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
