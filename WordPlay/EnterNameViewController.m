@@ -21,6 +21,10 @@
     // Do any additional setup after loading the view.
 }
 
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
     
@@ -29,6 +33,7 @@
         return YES;
     } else {
         self.label.text = @"Enter your name to continue:";
+        self.label.textColor = [UIColor redColor];
         return NO;
         
     }

@@ -23,6 +23,10 @@
     
   
 }
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
     
@@ -31,6 +35,7 @@
         return YES;
     } else {
         self.label2.text = @"Enter your adjective to continue:";
+        self.label2.textColor = [UIColor redColor];
         return NO;
         
     }
@@ -49,6 +54,7 @@
     
         dvc.name2 = self.name;
         dvc.ad2 = self.adjectiveTextField.text;
+    
 }
     
     
